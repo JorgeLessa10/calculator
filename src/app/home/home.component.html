@@ -1,0 +1,32 @@
+<div class="calculator">
+
+    <div class="col-12 text-left result-display">
+        <p class="result">{{result}}</p>
+        <span class="result-history-display">{{history}}</span>
+    </div>
+
+    <div class="calculator-keys">
+
+        <button type="button" value="+" (click)="click('+')">+</button>
+        <button type="button" value="-" (click)="click('-')">-</button>
+        <button type="button" value="*" (click)="click('*')">*</button>
+        <button type="button" value="/" (click)="click('/')">/</button>
+        <button type="button" value="1" (click)="click('1')">1</button>
+        <button type="button" value="2" (click)="click('2')">2</button>
+        <button type="button" value="3" (click)="click('3')">3</button>
+        <button type="button" value="4" (click)="click('4')">4</button>
+        <button type="button" value="5" (click)="click('5')">5</button>
+        <button type="button" value="6" (click)="click('6')">6</button>
+        <button type="button" value="7" (click)="click('7')">7</button>
+        <button type="button" value="8" (click)="click('8')">8</button>
+        <button type="button" value="9" (click)="click('9')">9</button>
+        <button type="button" value="0" (click)="click('0')">0</button>
+
+        <button type="button" class="clear" value="" (click)="clear()">Limpar</button>
+        <button type="button" class="equal-sign" value="=" (click)="click('=')">=</button>
+
+
+    </div>
+    
+</div>
+
